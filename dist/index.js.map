@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://profanityjs/./src/index.ts"],"names":["console","log","testStuff"],"mappings":"0LAMa,I,8KAJT,WACIA,QAAQC,IAAI,a,kCAIfC,a","file":"/dist/index.js","sourcesContent":["\"use strict\";\nclass Test {\n    testStuff() {\n        console.log(\"Test\");\n    }\n}\nconst test = new Test();\ntest.testStuff();\n"],"sourceRoot":""}

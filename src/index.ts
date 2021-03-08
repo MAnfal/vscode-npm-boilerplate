@@ -1,7 +1,9 @@
-class HelloWorld {
-    testingStuff() {
-        console.log("Testing Stuff");
+class Test {
+    testStuff() {
+        console.log("Test");
     }
 }
 
-export default HelloWorld;
+const test = new Test();
+
+test.testStuff();
