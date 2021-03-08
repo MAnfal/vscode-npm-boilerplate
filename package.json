@@ -1,0 +1,25 @@
+{
+  "name": "profanityjs",
+  "version": "0.1.0",
+  "description": "A small utility to filter out profanity from text.",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/MAnfal/profanityjs.git"
+  },
+  "keywords": [
+    "profanity",
+    "profanityjs",
+    "profane",
+    "profanity js"
+  ],
+  "author": "Anfal",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MAnfal/profanityjs/issues"
+  },
+  "homepage": "https://github.com/MAnfal/profanityjs#readme"
+}
