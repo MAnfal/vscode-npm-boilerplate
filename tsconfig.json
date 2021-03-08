@@ -1,0 +1,28 @@
+{
+    "compilerOptions": {
+      "target": "esnext",
+      "module": "esnext",
+      "lib": ["es2017", "dom", "es7"],
+      "downlevelIteration": true,
+      "importHelpers": true,
+      "strict": true,
+      "strictNullChecks": false,
+      "noImplicitThis": true,
+      "moduleResolution": "node",
+      "baseUrl": ".",
+      "allowSyntheticDefaultImports": true,
+      "esModuleInterop": true,
+      "experimentalDecorators": true,
+      "suppressImplicitAnyIndexErrors": true,
+      "typeRoots": [
+        "node_modules/@types"
+      ],
+      "jsx": "preserve",
+      "paths": {
+          "@/*": [ "./src/*" ],
+        }
+    },
+    "include": [
+      "./src/**/*"
+    ],
+  }
