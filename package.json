@@ -1,7 +1,7 @@
 {
-  "name": "profanityjs",
+  "name": "PROJECT_NAME",
   "version": "0.1.0",
-  "description": "A small utility to filter out profanity from text.",
+  "description": "DESCRIPTION OF PROJECT_NAME.",
   "main": "dist/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -12,20 +12,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/MAnfal/profanityjs.git"
+    "url": "REPOSITORY_URL"
   },
-  "keywords": [
-    "profanity",
-    "profanityjs",
-    "profane",
-    "profanity js"
-  ],
-  "author": "Anfal",
+  "keywords": [],
+  "author": "AUTHOR_NAME",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/MAnfal/profanityjs/issues"
+    "url": "ISSUES_BOARD_URL"
   },
-  "homepage": "https://github.com/MAnfal/profanityjs#readme",
+  "homepage": "REPOSITORY HOME PAGE",
   "devDependencies": {
     "laravel-mix": "^6.0.13",
     "postcss": "^8.2.7",
