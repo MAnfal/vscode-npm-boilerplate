@@ -12,3 +12,19 @@ Please install the following items in order to prepare the environment for devel
 4. [VSCode Remote - Containers Extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers)
 
 Once everything is installed, you should be able to simply launch the container and start development right away.
+
+## Notes
+
+This environment was created using the following items. Please feel free to read their relevant documentation for further assistance.
+
+1. [VSCode typescript-node devcontainer](https://github.com/microsoft/vscode-dev-containers/tree/master/containers/typescript-node)
+2. [Laravel Mix](https://laravel-mix.com/docs/6.0/installation)
+
+## My Environment
+
+At the time of the creation of this repository, the software version installed on my system looks like the following.
+
+1. Docker version 20.10.4, build d3cb89e
+2. VSCode version 1.53.2
+3. VSCode Docker Extension version 1.10.0
+4. VSCode Remote - Containers Extension version v0.158.0
