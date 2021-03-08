@@ -1,0 +1,58 @@
+ 
+{
+	"name": "Node.js & TypeScript NPM Package Boilerplate",
+	"build": {
+		"dockerfile": "Dockerfile",
+		// Update 'VARIANT' to pick a Node version: 10, 12, 14
+		"args": { 
+			"VARIANT": "14"
+		}
+	},
+
+	// Set *default* container specific settings.json values on container create.
+	"settings": { 
+		"terminal.integrated.shell.linux": "/bin/bash",
+		
+		"[javascript]": {
+			"editor.defaultFormatter": "esbenp.prettier-vscode"
+		 },
+		 "[typescript]": {
+			"editor.defaultFormatter": "esbenp.prettier-vscode"
+		 },
+
+		"editor.formatOnSave": true,
+		"editor.formatOnPaste": false,
+		"editor.quickSuggestions": {
+			"strings": true
+		},
+
+		"auto-rename-tag.activationOnLanguage": ["*"]
+	},
+
+	// Add the IDs of extensions you want installed when the container is created.
+	"extensions": [
+		"formulahendry.auto-close-tag",
+		"eamodio.gitlens",
+		"zignd.html-css-class-completion",
+		"isudox.vscode-jetbrains-keybindings",
+		"christian-kohler.path-intellisense",
+		"mikestead.dotenv",
+		"EditorConfig.EditorConfig",
+		"ms-azuretools.vscode-docker",
+		"redhat.vscode-yaml",
+		"esbenp.prettier-vscode",
+		"wk-j.save-and-run",
+		"moshfeu.diff-merge",
+		"msjsdiag.debugger-for-chrome",
+        "formulahendry.auto-rename-tag"
+	],
+
+	// Use 'forwardPorts' to make a list of ports inside the container available locally.
+	// "forwardPorts": [],
+
+	// Use 'postCreateCommand' to run commands after the container is created.
+	// "postCreateCommand": "yarn install",
+
+	// Comment out connect as root instead. More info: https://aka.ms/vscode-remote/containers/non-root.
+	"remoteUser": "node"
+}
