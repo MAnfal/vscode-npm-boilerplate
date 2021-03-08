@@ -13,6 +13,10 @@ Please install the following items in order to prepare the environment for devel
 
 Once everything is installed, you should be able to simply launch the container and start development right away.
 
+## Special Instructions
+
+1. This boilerplate includes `@` as the alias for the `src/` directory. Please feel free to add more.
+
 ## Notes
 
 This environment was created using the following items. Please feel free to read their relevant documentation for further assistance.
