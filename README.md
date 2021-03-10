@@ -32,3 +32,4 @@ At the time of the creation of this repository, the software version installed o
 2. VSCode version 1.53.2
 3. VSCode Docker Extension version 1.10.0
 4. VSCode Remote - Containers Extension version v0.158.0
+5. Ubunutu 20.04 LTS
